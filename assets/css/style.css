@@ -1,0 +1,12 @@
+section {
+       background-color: green;
+     }
+#text {
+       background-color: blue;
+     }
+.text {
+       color: red;
+     }
+h2.text {
+       font-size: 100px;
+     }
