@@ -73,6 +73,7 @@ aside ol li a {
   text-align: center;
   display: block;
   transition: .4s;
+  margin: 0 auto;
 }
 
 aside ol li a:hover {
