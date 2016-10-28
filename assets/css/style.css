@@ -5,46 +5,107 @@ body {
 header {
     background-color: aquamarine;
     padding: 10px 15px;
+    position: fixed;
+    width: calc(100% - 30px); /* adjustment of width base on padding value */
 }
 
-header h2 {
+header h2, footer h5 {
   display: inline-block;
   margin: 0px;
 }
 
 header nav {
   float: right;
+  padding-top: 6px
 }
 
-header nav ul {
+header nav ul, footer nav ul {
     padding: 0px;
     margin: 0px;
 }
 
-header nav ul li {
+header nav ul li, footer nav ul li {
   float: left;
   margin: 0px 10px;
   list-style: none;
 }
 
-header nav ul li a {
+header nav ul li a, footer nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-family: helvetica, arial;
+    color: #333333;
+    font-family: helvetica, sans-serif;
 }
 
 h2.text {
   font-size: 100px;
 }
 
-section {
-  background-color: green;
-}
-
-#text {
-  background-color: blue;
-}
-
 .text {
   color: red;
 }
+
+#text {
+  background-color: yellow;
+}
+
+/* challenge */
+aside {
+    float: left;
+    width: 10%;
+    padding: 0px;
+    margin-top: 48px;
+    position: fixed;
+}
+
+aside ol {
+    list-style: none;
+    padding-left: 0px;
+}
+
+aside ol li {
+  margin-bottom: 20px;
+}
+
+aside ol li a {
+  text-decoration: none;
+  color: #333333;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  transition: .4s;
+}
+
+aside ol li a:hover {
+  background-color: aquamarine;
+  width: 80%;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+main {
+    float: left;
+    width: calc(90% - 40px); /* adjustment of width base on padding value */
+    background-color: #f7f7f7;
+    padding: 0 20px;
+    margin-top: 48px;
+    margin-left: 10%;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#headings h1 {
+  margin-top: 8px;
+}
+
+footer {
+    clear: both;
+    background-color: #ffb6c1;
+    padding: 10px 15px;
+}
+
+footer nav {
+  float: right;
+}
+/* challenge */
