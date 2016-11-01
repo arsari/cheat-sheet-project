@@ -3,10 +3,10 @@ body {
 }
 
 header {
-    background-color: aquamarine;
-    padding: 10px 15px;
-    position: fixed;
-    width: calc(100% - 30px); /* adjustment of width base on padding value */
+  background-color: aquamarine;
+  padding: 10px 15px;
+  position: fixed;
+  width: calc(100% - 30px); /* adjustment of width base on padding value */
 }
 
 header h2, footer h5 {
@@ -20,8 +20,8 @@ header nav {
 }
 
 header nav ul, footer nav ul {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 header nav ul li, footer nav ul li {
@@ -31,9 +31,9 @@ header nav ul li, footer nav ul li {
 }
 
 header nav ul li a, footer nav ul li a {
-    text-decoration: none;
-    color: #333333;
-    font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #333333;
+  font-family: helvetica, sans-serif;
 }
 
 h2.text {
@@ -48,18 +48,17 @@ h2.text {
   background-color: yellow;
 }
 
-/* challenge */
 aside {
-    float: left;
-    width: 10%;
-    padding: 0px;
-    margin-top: 48px;
-    position: fixed;
+  float: left;
+  width: 10%;
+  padding: 0px;
+  margin-top: 48px;
+  position: fixed;
 }
 
 aside ol {
-    list-style: none;
-    padding-left: 0px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 aside ol li {
@@ -73,7 +72,7 @@ aside ol li a {
   text-align: center;
   display: block;
   transition: .4s;
-  margin: 0 auto;
+  margin: auto;
 }
 
 aside ol li a:hover {
@@ -84,12 +83,12 @@ aside ol li a:hover {
 }
 
 main {
-    float: left;
-    width: calc(90% - 40px); /* adjustment of width base on padding value */
-    background-color: #f7f7f7;
-    padding: 0 20px;
-    margin-top: 48px;
-    margin-left: 10%;
+  float: left;
+  width: calc(90% - 40px); /* adjustment of width base on padding value */
+  background-color: #f7f7f7;
+  padding: 0 20px;
+  margin-top: 48px;
+  margin-left: 10%;
 }
 
 section {
@@ -101,12 +100,11 @@ section {
 }
 
 footer {
-    clear: both;
-    background-color: #ffb6c1;
-    padding: 10px 15px;
+  clear: both;
+  background-color: #ffb6c1;
+  padding: 10px 15px;
 }
 
 footer nav {
   float: right;
 }
-/* challenge */
